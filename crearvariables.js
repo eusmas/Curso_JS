@@ -31,3 +31,6 @@ puesto="secretaria"; //asignacion de valor a la variable
 console.log(puesto);
 console.log(typeof(puesto));
 
+console.log(esteban + puesto);
+
+
