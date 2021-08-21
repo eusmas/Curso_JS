@@ -66,4 +66,5 @@ console.log("edad 1 decremento = ",decremento);
 A+=B; // a valor de A le suma el valor de B, es una forma abreviada de A=A+B;
 
 console.log("a+b = ",A);
+console.log("a+b = ",B);
 
