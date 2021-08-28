@@ -1,3 +1,4 @@
+// comentario praprobar la rama 1 o los branch
 var edad1, edad2, diferencia;
 var sumaedaddes, yearedad1, yearedad2;
 var yearactual;
