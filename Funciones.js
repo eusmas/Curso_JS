@@ -5,15 +5,17 @@ function mensaje(msj) {
     console.log(msj);
 }
 
-var msj="Mensaje como entrada a la funcion";
+//ejemplo de la funcion mensaje
+var msj="Este mensaje es la entrada de la funcion";
 mensaje(msj);
 
 
 //funcion con retorno de valor al codigo 
 function mensaje2() {
-    return "Mensaje retornado por la funcion";
+    return "Este Mensaje es retornado por la funcion";
 }
 
+//ejemplo de la funcion mensaje2
 var msj2= mensaje2();
 console.log(msj2);
 
@@ -23,8 +25,9 @@ function sumar(a,b,c) {
     return a+b+c;
 }
 
-var resultado;
-resultado=sumar(4,5,8);
+//ejemplo de funcion sumar
+var resultado; //definir la variable
+resultado=sumar(10,5,3);
 console.log(resultado);
 
 /*si uno de los valores de entrada se iguala a un valor, 
@@ -33,6 +36,8 @@ valor, tomara dicho valor por defecto*/
 function suma_opcional(a,b,c=3) {
     return a+b+c;
 }
+
+//Ejemplo funcion suma_opcional
 var resultado2;
 resultado2=suma_opcional(3,7);
 console.log(resultado2);
@@ -46,6 +51,7 @@ var factorial = function(n){
     else
         return (n*factorial(n-1));
 }
+
 console.log(factorial(4));
 
 

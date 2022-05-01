@@ -6,7 +6,7 @@ console.log('Hola Mundo');
 console.log(5+5);
 
 var edad = 6; //definir variable
-console.log(edad); //mostrr variable en la consola
+console.log(edad); //mostrar variable en la consola
 console.log(typeof(edad)); //indica el tipo de dato
 
 var nombre="Esteban";
@@ -31,6 +31,6 @@ puesto="secretaria"; //asignacion de valor a la variable
 console.log(puesto);
 console.log(typeof(puesto));
 
-console.log(esteban + puesto);
+console.log(nombre + " " + puesto);
 
 
