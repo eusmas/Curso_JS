@@ -6,22 +6,22 @@ edad1=34;
 edad2=28;
 yearactual=2019;
 
-//suma
+//suma +
 
 sumaedaddes=edad1+edad2;
 
-//resta
+//resta -
 
 diferencia=edad1-edad2;
 
 yearedad1=yearactual-edad1;
 yearedad2=yearactual-edad2;
 
-//multiplicacion
+//multiplicacion *
 
 console.log("Multiplicacion = ", yearactual*5);
 
-//division
+//division /
 
 console.log("Division = ", yearactual/5);
 
